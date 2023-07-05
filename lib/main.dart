@@ -12,7 +12,7 @@ void main() async {
   await Firebase.initializeApp();
   runApp(QuitM8App());
 }
-
+#int
 class QuitM8App extends StatelessWidget {
   final FirebaseAuth _auth = FirebaseAuth.instance;
 
